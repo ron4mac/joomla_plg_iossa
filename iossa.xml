@@ -2,18 +2,22 @@
 <extension version="3.0" type="plugin" group="system" method="upgrade">
 	<name>PLG_SYSTEM_IOSSA</name>
 	<author>Ron Crans</author>
-	<creationDate>July 2015</creationDate>
+	<creationDate>October 2015</creationDate>
 	<copyright>(C) 2015 Ron Crans. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
 	<authorEmail>ron@rjconline.net</authorEmail>
 	<authorUrl>http://rjconline.net</authorUrl>
-	<version>1.0.0</version>
+	<version>1.0.5</version>
 	<description>PLG_SYSTEM_IOSSA_XML_DESCRIPTION</description>
 	<scriptfile>script.php</scriptfile>
 	<files>
 		<filename plugin="iossa">iossa.php</filename>
 		<filename>index.html</filename>
+		<filename>iossa.js</filename>
 		<folder>language</folder>
 		<folder>images</folder>
 	</files>
+	<updateservers>
+		<server type="extension" priority="1" name="IOSSA Updates">http://rjcrans.net/jupdates/plg_iossa/updates.xml</server>
+	</updateservers>
 </extension>
