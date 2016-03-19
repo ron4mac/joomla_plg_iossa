@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.0" type="plugin" group="system" method="upgrade">
 	<name>PLG_SYSTEM_IOSSA</name>
-	<author>Ron Crans</author>
+	<author>Ronald Crans</author>
 	<creationDate>October 2015</creationDate>
 	<copyright>(C) 2015 Ron Crans. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
