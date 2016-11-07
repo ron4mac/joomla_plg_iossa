@@ -15,7 +15,7 @@ class plgSystemIossa extends JPlugin {
 
 		$doc = JFactory::getDocument();
 		// do nothing if not rendering the standard HTML document
-		if (get_class($doc) != 'JDocumentHTML') {
+		if (!in_array(get_class($doc), array('JDocumentHTML','JDocumentHtml'))) {
 			return;
 		}
 
