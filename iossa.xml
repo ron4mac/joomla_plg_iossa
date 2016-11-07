@@ -7,7 +7,7 @@
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
 	<authorEmail>ronjc@rjconline.net</authorEmail>
 	<authorUrl>http://rjconline.net</authorUrl>
-	<version>1.0.5</version>
+	<version>1.0.9</version>
 	<description>PLG_SYSTEM_IOSSA_XML_DESCRIPTION</description>
 	<scriptfile>script.php</scriptfile>
 	<files>
