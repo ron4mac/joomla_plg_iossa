@@ -26,7 +26,7 @@ if (!iosSA) {
 
 		iosSA.touchStart = function (event) {
 			// disable the standard ability to select the touched object
-		//	event.preventDefault();
+//			event.preventDefault();
 			// get the total number of fingers touching the screen
 			iosSA.fingerCount = event.touches.length;
 			// since we are looking for a swipe (single finger) and not a gesture (multiple fingers),
@@ -42,7 +42,7 @@ if (!iosSA) {
 		};
 
 		iosSA.touchEnd = function (event) {
-		//	event.preventDefault();
+//			event.preventDefault();
 			// check to see if more than one finger was used and that there is an ending coordinate
 			if (iosSA.fingerCount == 1 && iosSA.curX !== 0) {
 				var xD = iosSA.curX - iosSA.startX;
@@ -62,7 +62,7 @@ if (!iosSA) {
 		};
 
 		iosSA.touchMove = function (event) {
-		//	event.preventDefault();
+//			event.preventDefault();
 			if (event.touches.length == 1) {
 				iosSA.curX = event.touches[0].pageX;
 				iosSA.curY = event.touches[0].pageY;
